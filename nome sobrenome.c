@@ -13,3 +13,6 @@ int main() {
     // Exibe os nomes na tela
     printf("Primeiro nome: %s\n", primeiroNome);
     printf("Sobrenome: %s\n", sobrenome);
+    
+return 0;
+}
