@@ -4,7 +4,7 @@ int main() {
     int numero, soma = 0, count = 0;
 
     while (1) {
-        printf("Digite um número inteiro (digite um número negativo para parar): ");
+        printf("Digite um nÃºmero inteiro (digite um nÃºmero negativo para parar): ");
         scanf("%d", &numero);
 
         if (numero < 0) {
@@ -16,9 +16,9 @@ int main() {
     }
 
     if (count > 0) {
-        printf("A média dos valores digitados é: %.2f\n", (float)soma / count);
+        printf("A mÃ©dia dos valores digitados Ã©: %.2f\n", (float)soma / count);
     } else {
-        printf("Nenhum número válido foi digitado.\n");
+        printf("Nenhum nÃºmero vÃ¡lido foi digitado.\n");
     }
 
     return 0;
